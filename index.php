@@ -1,10 +1,3 @@
-<?php
-$file = 'ip.txt';
-$open = file_get_contents('ip.txt');
-$txt = $_SERVER["REMOTE_ADDR"];
-$open .= $txt.' - '."\n";
-file_put_contents($file, $open);
-?>
 <!DOCTYPE html>
 <html>
 	<head>
